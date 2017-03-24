@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Track Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Track Survey</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <form id="survey_form">
+            <div class="form-group">
+              <label for="user_name">Name:</label>
+              <input id="user_name_input" class="form-control" type="text">
+            </div>
+            <div class="well">
+              <div class="radio">
+                <label for="gender">
+                  <input id="female_radio" type="radio" name="gender" value="female">Female
+                </label>
+              </div>
+              <div class="radio">
+              <label for="gender">
+                <input id="male_radio" type="radio" name="gender" value="male">Male
+              </label>
+              </div>
+
+            <div class="panel-group">
+              <p>Question 1</p>
+              <select class="form-control" id="">
+                <option value="20">i</option>
+                <option value="10">o</option>
+                <option value="0">a</option>
+                <option value="-10">ac</option>
+                <option value="-20">e</option>
+              </select>
+            </div>
+
+            <div class="panel-group">
+              <p>Question 2</p>
+              <select class="form-control" id="">
+                <option value="20">i</option>
+                <option value="10">o</option>
+                <option value="0">n</option>
+                <option value="-10">ac</option>
+                <option value="-20">e</option>
+              </select>
+            </div>
+
+            <div class="panel-group">
+              <p>Question 3</p>
+              <select class="form-control" id="">
+                <option value="20">i</option>
+                <option value="10">o</option>
+                <option value="0">t</option>
+                <option value="-10">ac</option>
+                <option value="-20">e</option>
+              </select>
+            </div>
+
+            <div class="panel-group">
+              <p>Question 4</p>
+              <select class="form-control" id="">
+                <option value="20">i</option>
+                <option value="10">o</option>
+                <option value="0">y</option>
+                <option value="-10">ac</option>
+                <option value="-20">e</option>
+              </select>
+            </div>
+
+            <div class="panel-group">
+              <p>Question 5</p>
+              <select class="form-control" id="">
+                <option value="20">i</option>
+                <option value="10">o</option>
+                <option value="0">a</option>
+                <option value="-10">c</option>
+                <option value="-20">e</option>
+              </select>
+            </div>
+            <div>
+              <button id="submit_info" type="button" class="btn-default">Enter Info</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="col-md-7">
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
