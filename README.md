@@ -17,7 +17,7 @@ _The purpose of this page is to survey the user and potential Epicodus student f
 
 ## Support and contact details
 
-_Elan Baharie 0elan1@gmail.com_
+_Elan Baharie 0elan1@gmail.com find my page at https://elan0baharie.github.io/track_survey/
 
 ## Technologies Used
 
