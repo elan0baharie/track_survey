@@ -59,7 +59,19 @@ $(document).ready(function(){
     }
 
 
-  });
+  });// Submit button
+
+  $('button#reset').click(function(){
+    $('input').prop('checked', false);
+    $('#inquiry').val('');
+    $('#first_name').val('');
+    $('#last_name').val('');
+    $('#greet').text('');
+    $('#synopsis').text('');
+    $('div#survey2').hide();
+    $('div#survey3').hide();
+    $('div#survey4').hide();
+  })
 
 
 
