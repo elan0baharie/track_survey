@@ -17,18 +17,22 @@
         <div class="col-md-5">
           <form id="survey_form">
             <div class="form-group">
-              <label for="user_name">Name:</label>
-              <input id="user_name_input" class="form-control" type="text">
+              <label for="user_name">First name:</label>
+              <input id="first_name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="user_name">Last name:</label>
+              <input id="last_name" class="form-control" type="text">
             </div>
             <div class="well">
               <div class="radio">
                 <label for="gender">
-                  <input id="female_radio" type="radio" name="gender" value="female">Female
+                  <input id="female_radio" type="radio" name="gender" value="Ms">Female
                 </label>
               </div>
               <div class="radio">
               <label for="gender">
-                <input id="male_radio" type="radio" name="gender" value="male">Male
+                <input id="male_radio" type="radio" name="gender" value="Mr">Male
               </label>
               </div>
             </div>
@@ -83,7 +87,16 @@
 
         </div><!-- col-md-5 -->
         <div class="col-md-7">
-
+          <h3>Your results</h3>
+          <div class="panel">
+            <div class="panel-title">
+              <h5 id="greet" class="hide_init"></h5>
+            </div>
+            <div class="panel-body">
+              <p id="synopsis">
+              </p>
+            </div>
+          </div>
         </div>
 
       </div><!-- row -->
